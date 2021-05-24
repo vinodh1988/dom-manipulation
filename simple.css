@@ -1,0 +1,37 @@
+h1{
+  color: darkred;
+}
+
+h2{
+  color: blue;
+}
+
+#mycontent{
+    color: darkslategray;
+}
+
+#box{
+    width: 800px;
+    overflow: hidden;
+    border: 2px solid darkred;
+    background-color: lightblue;
+}
+#content{
+    width:800px;
+    overflow: hidden;
+    padding: 20px;
+}
+input[type="text"]{
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 2px;
+    height: 30px;
+}
+
+button{
+    background-color: red;
+    color: white;
+    padding: 6px;
+    width: 100px;
+    border: none;
+}
