@@ -1,0 +1,32 @@
+<html>
+    <head>
+          <title>Css Manipulation</title>
+          <link href="fresh.css" rel="stylesheet">
+         
+    </head>
+    <body>
+        <div id="cssform">
+        <select id="cssoption" onclick="manipulate()">
+             <option>height</option>
+             <option>font-family</option>
+             <option>width</option>
+             <option>font-size</option>
+             <option>color</option>
+             <option>background-color</option>
+        </select> <br>
+        <select id="fonts" class="formitem">
+            <option>Courier New</option>
+            <option>Times New Roman</option>
+            <option>Comic Sans MS</option>
+            <option>Consolas</option>
+            <option>Forte</option>
+        </select><br>
+        <input type="color" id="colors"  class="formitem"></br>
+        <input type="number" class="formitem units"> <span class="units">px</span>
+       </div>
+       <div id="content" style="border:2px solid gray">
+            This is target division
+       </div>
+       <script src="manipulate.js"></script>
+    </body>
+</html>

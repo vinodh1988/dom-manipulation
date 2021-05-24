@@ -1,0 +1,16 @@
+#cssform{
+    width: 800px;
+    background-color: lightblue;
+    overflow: hidden;
+    padding: 30px;
+}
+
+select,input[type="number"],input[type="color"]{
+    height: 30px;
+    width: 300px;
+}
+
+#fonts,#colors,.units{
+    visibility: hidden;
+    margin-top: 30px
+}
